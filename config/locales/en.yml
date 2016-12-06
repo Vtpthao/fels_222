@@ -21,5 +21,12 @@
 
 en:
   hello: "Hello world"
-  elearning: "ELearning"
-  
+  elearning: "E-Learning"
+  welcome: "Welcome to the e-learning"
+  about: "About"
+  contact: "Contact"
+  home: "Home"
+  login: "Log in"
+  startnow: "Start now!"
+  layoutheader: "layouts/header"
+  layoutfooter: "layouts/footer"

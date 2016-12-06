@@ -1,13 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title><%= t "elearning" %></title>
+    <title><%= t"elearning" %></title>
+    <%= stylesheet_link_tag "application", media: "all",
+      "data-turbolinks-track" => true %>
+    <%= javascript_include_tag "application",
+      "data-turbolinks-track" => true %>
     <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
-    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
   </head>
-
   <body>
-    <%= yield %>
+    <%= render t("layoutheader") %>
+    <div class="container">
+      <%= yield %>
+      <%= render t("layoutfooter") %>
+    </div>
   </body>
 </html>
