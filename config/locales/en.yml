@@ -30,3 +30,8 @@ en:
   startnow: "Start now!"
   layoutheader: "layouts/header"
   layoutfooter: "layouts/footer"
+  elearning: "ELearning"
+basiclogin:
+  login: "Log in"
+  new_user: "New user?"
+  signup: "Sign up now!"
