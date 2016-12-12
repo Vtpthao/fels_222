@@ -35,3 +35,6 @@ basiclogin:
   login: "Log in"
   new_user: "New user?"
   signup: "Sign up now!"
+User:
+  follow: "Follow"
+  unfollow: "Unfollow"
